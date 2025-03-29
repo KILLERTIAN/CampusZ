@@ -7,6 +7,7 @@ import { loadSlim } from "tsparticles-slim";
 import Hero from "@/components/Hero";
 import Features from "@/components/Feature";
 import HowItWorks from "@/components/HowItWorks";
+import SignupForm from "@/components/signup-form-demo";
 
 export default function Home() {
   const particlesInit = useCallback(async (engine: Engine) => {
