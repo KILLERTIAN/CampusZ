@@ -1,5 +1,3 @@
-"use client";
-
 import { motion } from "framer-motion";
 import Particles from "react-tsparticles";
 import { Engine } from "tsparticles-engine";
@@ -11,32 +9,32 @@ const features = [
   {
     icon: <ShieldCheck className="w-12 h-12 text-[#00B7DB] dark:text-[#48FF5A]" />,
     title: "Secure & Reliable",
-    description: "Enterprise-grade security ensures data protection at every step.",
+    description: "Blockchain encryption ensures fraud-proof transactions and data security.",
   },
   {
     icon: <LineChart className="w-12 h-12 text-[#11C359] dark:text-[#30E6EA]" />,
     title: "Data-Driven Insights",
-    description: "Powerful analytics for informed decision-making.",
+    description: "Real-time financial analytics to track revenue, payments, and trends.",
   },
   {
     icon: <Clock className="w-12 h-12 text-[#30E6EA] dark:text-[#00B7DB]" />,
-    title: "Real-Time Updates",
-    description: "Stay ahead with instant notifications and live tracking.",
+    title: "Instant & Transparent Payments",
+    description: "Smart contracts process fees, refunds & penalties with 100% transparency.",
   },
   {
     icon: <Settings className="w-12 h-12 text-[#48FF5A] dark:text-[#11C359]" />,
-    title: "Automated Processes",
-    description: "Reduce workload with AI-powered automation.",
+    title: "AI-Powered Automation",
+    description: "Auto-generated invoices, fee reminders & compliance reports save hours of work.",
   },
   {
     icon: <Lock className="w-12 h-12 text-[#00B7DB] dark:text-[#30E6EA]" />,
-    title: "Privacy First",
-    description: "Advanced encryption ensures complete confidentiality.",
+    title: "Privacy-First Approach",
+    description: "Decentralized identity verification ensures zero data exposure risks.",
   },
   {
     icon: <Wallet className="w-12 h-12 text-[#11C359] dark:text-[#48FF5A]" />,
-    title: "Seamless Payments",
-    description: "Automate faculty & student fee transactions effortlessly.",
+    title: "Seamless Multi-Currency Payments",
+    description: "Accepts crypto & fiat payments with automated ledger tracking.",
   },
 ];
 
@@ -47,10 +45,10 @@ export default function Features() {
 
   return (
     <section className="relative flex flex-col items-center w-full min-h-screen px-6 py-20 lg:px-20 text-center overflow-hidden">
-      {/* 🌌 Background Gradient Animation (Same as Hero) */}
-      <div className="absolute inset-0 z-[-1] animate-gradient bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-[#FFD700] via-[#FFA500] to-[#00B7DB] dark:from-[#0F172A] dark:via-[#121212] dark:to-[#002D26] transition-all duration-[8000ms] ease-in-out infinite" />
+      {/* 🌌 Background Gradient Animation */}
+      <div className="absolute inset-0 z-[-1] animate-gradient bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-[#00B7DB] via-[#11C359] to-[#30E6EA] dark:from-[#002D26] dark:via-[#121212] dark:to-[#0F172A] transition-all duration-[8000ms] ease-in-out infinite" />
 
-      {/* ✨ Floating Particles (Same as Hero) */}
+      {/* ✨ Floating Particles */}
       <Particles
         id="featuresParticles"
         init={particlesInit}
@@ -67,7 +65,7 @@ export default function Features() {
         className="absolute inset-0 w-full h-full z-0"
       />
 
-      {/* 🌀 Glow Effects (Same as Hero) */}
+      {/* 🌀 Glow Effects */}
       <div className="absolute top-20 left-[-50px] w-72 h-72 rounded-full filter blur-3xl bg-[#8EF2F2]/40 dark:bg-[#4AFF4A]/30 transition-all duration-500" />
       <div className="absolute bottom-20 right-[-50px] w-80 h-80 rounded-full filter blur-3xl bg-[#B6FFB6]/40 dark:bg-[#2EF2D2]/30 transition-all duration-500" />
 
@@ -81,7 +79,7 @@ export default function Features() {
         Why Choose Us?
       </motion.h2>
       <p className="text-lg text-gray-700 dark:text-gray-300 max-w-2xl mb-12 relative z-10">
-        A next-gen platform designed to streamline student records, faculty payments, and operational efficiency.
+        A next-gen platform designed to streamline student fees, faculty payments, and institutional finance.
       </p>
 
       {/* 🌟 Features Grid (Glassmorphism + Hover Glow) */}
